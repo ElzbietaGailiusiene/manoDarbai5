@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;    
+    background: gray;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    border: 10px solid grey;
+    width: 100%;
+    margin:0;
+}
+.box{
+    border:10px solid black;
+    background: grey;
+    width:33%;
+color: white;
+float: left;
+padding: 10px;
+}

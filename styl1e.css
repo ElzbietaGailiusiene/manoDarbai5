@@ -1,0 +1,94 @@
+
+*{
+    background-color: slategrey;
+    box-sizing: border-box;
+}
+
+
+
+.card-title{
+    border: 1px solid pink;
+    background: pink;
+    width: 350px;
+    height: 30px;
+    padding: 1px;
+    font-weight: bold;
+}
+.card-body{
+    border:1px,solid,blue;
+    background-color:beige;
+    width: 350px;
+    text-align: justify;
+    font-size:15px;
+    padding:2px;
+}
+
+.card-1{
+position: absolute;
+top:20px;
+right: 230px;
+}
+
+.card-3{
+position: absolute;
+top:280px;
+right: 230px;
+}
+.card-2{
+    position: absolute;
+    top: 170px;
+    left:250px
+}
+.card-4{
+    position: absolute;
+    top:400px;
+    left:250px;
+}
+.conteiner{
+    position: a;
+    top:20px;
+    left:400px;
+  
+}
+.time-line{
+    position: relative;
+    left:630px;
+    width: 25px;
+    height: 600px;
+    background:rgb(105, 105, 206);
+    border-radius: 40%;
+    z-index:1;
+}
+.number{
+    border:1px, solid, white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(105, 105, 206);
+    border-radius:50%;
+    z-index: 2;
+    font-size: 25px;
+    padding: 2px;
+    color: white;
+    box-sizing: border-box;
+}
+.one{
+    position: relative;
+    top: 20px;
+    left: -15px;
+}
+.two{
+    position: relative;
+    top: 100px;
+    left:-15px;  
+}
+.three{
+position: relative;
+    top: 180px;
+    left:-15px;
+}    
+.four{
+    position: relative;
+    top: 260px;
+    left:-15px;
+}

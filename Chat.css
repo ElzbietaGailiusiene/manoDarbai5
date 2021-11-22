@@ -1,0 +1,42 @@
+body{
+    background: darkgrey;
+}
+.chat-box-left{
+    background: cornflowerblue;
+    border:5px solid chocolate;
+    width: auto;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 0px 15px 15px 15px;
+    float:left;
+}
+
+.chat-box-left img{
+    float:left;
+}
+.chat-box-right{
+    background: rgb(216, 219, 224);
+    border:5px solid rgb(73, 58, 47);
+    width: auto;
+    margin: 15px;
+    padding:15px;
+    border-radius: 15px 0px 15px 15px;
+    float:right;
+}
+.chat-box-right h3{
+    text-align:right
+}
+.chat-box-right img{
+    float:right;
+}
+img{
+    width: 50px;
+}
+.f-clear{
+    clear:both;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
